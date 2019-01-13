@@ -13,5 +13,12 @@
         "psr-4": {
             "safal\\engtonepdateconverter\\": "src/"
         }
-    }
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "safal\\engtonepdateconverter\\NepaliDateServiceProvider"
+            ]
+        }
+    },
 }
