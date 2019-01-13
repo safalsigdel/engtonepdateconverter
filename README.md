@@ -9,7 +9,7 @@
 <p> 2) Or add "safal/engtonepdateconverter": "^1.0" in composer.json and run composer update</p>
 <p>For Laravel 5.4 and lower, add the following line to your config/app.php:<br>
 
-safal\engtonepdateconverter::class,
+safal\engtonepdateconverter\NepaliDateServiceProvider::class,
 
 </p>
 <p> 3) For Laravel 5.5 and greater, the package will auto register the provider for you. </p>
