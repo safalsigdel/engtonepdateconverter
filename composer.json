@@ -9,11 +9,6 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-	"autoload": {
-        "psr-4": {
-            "safal\\engtonepdateconverter\\": "src/"
-        }
-    },
 	"extra": {
         "laravel": {
             "providers": [
@@ -21,4 +16,9 @@
             ]
         }
     },
+	"autoload": {
+        "psr-4": {
+            "safal\\engtonepdateconverter\\": "src/"
+        }
+    }
 }
