@@ -7,13 +7,9 @@
 <p>Instructions:</p>
 <p> 1) Run composer require safal/engtonepdateconverter</p>
 <p> 2) Or add "safal/engtonepdateconverter": "^1.0" in composer.json and run composer update</p>
-<p>For Laravel 5.4 and lower, add the following line to your config/app.php:
+<p>For Laravel 5.4 and lower, add the following line to your config/app.php:<br>
 
-/*
- * Package Service Providers...
- */
 safal\engtonepdateconverter::class,
-
 
 </p>
 <p> 3) For Laravel 5.5 and greater, the package will auto register the provider for you. </p>
