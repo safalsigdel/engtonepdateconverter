@@ -5,7 +5,11 @@ A laravel package that converts english date to nepali date
 <!DOCTYPE html>
 <html>
 <head>
-	
+	<style>
+	p{
+	color:red;
+	}
+	</style>
 </head>
 <body>
 <h1>A laravel package that converts english date to nepali date.</h1>
@@ -17,7 +21,7 @@ A laravel package that converts english date to nepali date
 <h3>Usage</h3>
 To convert english date to nepali date,<br>
 use the NepaliDate Facade as:<br>
-<p style="background-color:blue">NepaliDate::convertToNepaliDate(2019,01,13);</p>
+<p>NepaliDate::convertToNepaliDate(2019,01,13);</p>
 Output: २०७५/९/२९
 
 
