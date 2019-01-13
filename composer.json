@@ -1,0 +1,17 @@
+{
+    "name": "safal/engtonepdateconverter",
+    "description": "A package that convert english date to nepali date",
+    "authors": [
+        {
+            "name": "Safal Sigdel",
+            "email": "safalsigdel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "safal\\engtonepdateconverter\\": "src/"
+        }
+    }
+}
